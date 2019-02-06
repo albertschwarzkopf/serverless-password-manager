@@ -1,0 +1,19 @@
+Resources:
+  PasswordTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ${self:custom.tableName}
+      AttributeDefinitions:
+        - AttributeName: passwordId
+          AttributeType: S
+        - AttributeName: password
+          AttributeType: S
+      KeySchema:
+        - AttributeName: passwordId
+          KeyType: HASH
+        - AttributeName: password
+          KeyType: RANGE
+      # Set the capacity based on the stage
+      ProvisionedThroughput:
+        ReadCapacityUnits: ${self:custom.tableThroughput}
+WriteCapacityUnits: ${self:custom.tableThroughput}
