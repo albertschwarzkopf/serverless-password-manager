@@ -129,7 +129,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/serverless-password-manager/dev/1549630947848-2019-02-08T13:02:27.848Z/serverless-password-manager.zip"
+                "S3Key": "serverless/serverless-password-manager/dev/1549633060179-2019-02-08T13:37:40.179Z/serverless-password-manager.zip"
               },
               "FunctionName": "serverless-password-manager-dev-create",
               "Handler": "create.main",
@@ -153,14 +153,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "CreateLambdaVersionrmdUwavh8t7VHIj5B9mbgbtFYwgQxgfLz04CQsY2f0": {
+          "CreateLambdaVersionbzf44WlZchSfclz8Ss69xr2AF97DbxQ9ALeZDQCU": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "CreateLambdaFunction"
               },
-              "CodeSha256": "Xb7/4Tkd5nWQwqWfBfQAOyrcMe6rRNAN9gc9AqZNCGY="
+              "CodeSha256": "0R63kUa45S4UAmV8PA8/v4mMvZ+dalWjQGqedKVWHog="
             }
           },
           "ApiGatewayRestApi": {
@@ -279,7 +279,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1549630947865": {
+          "ApiGatewayDeployment1549633060196": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -541,7 +541,7 @@
           "CreateLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "CreateLambdaVersionrmdUwavh8t7VHIj5B9mbgbtFYwgQxgfLz04CQsY2f0"
+              "Ref": "CreateLambdaVersionbzf44WlZchSfclz8Ss69xr2AF97DbxQ9ALeZDQCU"
             }
           },
           "ServiceEndpoint": {
@@ -866,10 +866,10 @@
       }
     },
     "layers": {},
-    "artifact": "/home/ubuntu/serverless/serverless-password-manager/.serverless/serverless-password-manager.zip"
+    "artifact": "/home/ubuntu/serverless/serverless-password-manager/backend/.serverless/serverless-password-manager.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/serverless-password-manager/dev/1549630947848-2019-02-08T13:02:27.848Z",
+    "artifactDirectoryName": "serverless/serverless-password-manager/dev/1549633060179-2019-02-08T13:37:40.179Z",
     "artifact": "serverless-password-manager.zip"
   }
 }
