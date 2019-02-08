@@ -67,17 +67,17 @@ functions:
           cors: true
           authorizer: aws_iam
 
-  get:
+#  get:
     # Defines an HTTP API endpoint that calls the main function in get.js
     # - path: url path is /password/{id}
     # - method: GET request
-    handler: get.main
-    events:
-      - http:
-          path: password/{id}
-          method: get
-          cors: true
-          authorizer: aws_iam
+#    handler: get.main
+#    events:
+#      - http:
+#          path: password/{id}
+#          method: get
+#          cors: true
+#          authorizer: aws_iam
 
 #  list:
     # Defines an HTTP API endpoint that calls the main function in list.js
@@ -91,29 +91,29 @@ functions:
 #          cors: true
 #          authorizer: aws_iam
 
-  update:
+#  update:
     # Defines an HTTP API endpoint that calls the main function in update.js
     # - path: url path is /password/{id}
     # - method: PUT request
-    handler: update.main
-    events:
-      - http:
-          path: password/{id}
-          method: put
-          cors: true
-          authorizer: aws_iam
+#    handler: update.main
+#    events:
+#      - http:
+#          path: password/{id}
+#          method: put
+#          cors: true
+#          authorizer: aws_iam
 
-  delete:
+#  delete:
     # Defines an HTTP API endpoint that calls the main function in delete.js
     # - path: url path is /password/{id}
     # - method: DELETE request
-    handler: delete.main
-    events:
-      - http:
-          path: password/{id}
-          method: delete
-          cors: true
-          authorizer: aws_iam
+#    handler: delete.main
+#    events:
+#      - http:
+#          path: password/{id}
+#          method: delete
+#          cors: true
+#          authorizer: aws_iam
 
 #  billing:
 #    handler: billing.main
