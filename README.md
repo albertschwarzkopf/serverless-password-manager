@@ -20,4 +20,5 @@ frontend:
 <li>npm install react-bootstrap@0.32.4 --save
 <li>npm install react-router-dom --save
 <li>npm install react-router-bootstrap --save
+<li>npm install aws-amplify --save
 </ul>
