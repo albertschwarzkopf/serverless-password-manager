@@ -27,7 +27,9 @@ frontend:
 ToDo/Missing:
 <ul>
 <li>'Forgot Password functionality'
+</ul>
 
 Not necessary:
 <ul>
 <li>Signup Page
+</ul>

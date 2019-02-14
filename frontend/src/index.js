@@ -24,7 +24,7 @@ Amplify.configure({
   API: {
     endpoints: [
       {
-        name: "serverless-password-manager",
+        name: "dev-serverless-password-manager",
         endpoint: config.apiGateway.URL,
         region: config.apiGateway.REGION
       },
