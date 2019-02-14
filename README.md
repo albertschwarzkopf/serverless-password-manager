@@ -22,3 +22,12 @@ frontend:
 <li>npm install react-router-bootstrap --save
 <li>npm install aws-amplify --save
 </ul>
+
+
+ToDo/Missing:
+<ul>
+<li>'Forgot Password functionality'
+
+Not necessary:
+<ul>
+<li>Signup Page

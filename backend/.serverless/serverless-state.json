@@ -129,7 +129,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/serverless-password-manager/dev/1549895210945-2019-02-11T14:26:50.945Z/serverless-password-manager.zip"
+                "S3Key": "serverless/serverless-password-manager/dev/1550144821183-2019-02-14T11:47:01.183Z/serverless-password-manager.zip"
               },
               "FunctionName": "serverless-password-manager-dev-create",
               "Handler": "create.main",
@@ -279,7 +279,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1549895210962": {
+          "ApiGatewayDeployment1550144821200": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -869,7 +869,7 @@
     "artifact": "/home/ubuntu/serverless/serverless-password-manager/backend/.serverless/serverless-password-manager.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/serverless-password-manager/dev/1549895210945-2019-02-11T14:26:50.945Z",
+    "artifactDirectoryName": "serverless/serverless-password-manager/dev/1550144821183-2019-02-14T11:47:01.183Z",
     "artifact": "serverless-password-manager.zip"
   }
 }

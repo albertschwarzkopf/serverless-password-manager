@@ -5,12 +5,12 @@ export default {
 //  },
   apiGateway: {
     REGION: "eu-west-1",
-    URL: "https://v7wi3gvsdk.execute-api.eu-west-1.amazonaws.com/dev/password"
+    URL: "https://pvb5sixrse.execute-api.eu-west-1.amazonaws.com/dev/password"
   },
   cognito: {
     REGION: "eu-west-1",
-    USER_POOL_ID: "eu-west-1_7JPZ6c1Y1",
-    APP_CLIENT_ID: "5eo6jr2dj9t43tj8sd8881m5bo",
-    IDENTITY_POOL_ID: "eu-west-1:f7390fb6-ac62-4359-9f49-59554389a2dd"
+    USER_POOL_ID: "eu-west-1_RnmsDjToO",
+    APP_CLIENT_ID: "5i27u6648h586n81uod3dbvda",
+    IDENTITY_POOL_ID: "eu-west-1:fa537323-dc18-4924-a173-0c05d6ab70c5"
   }
 };
