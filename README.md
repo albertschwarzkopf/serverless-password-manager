@@ -1,5 +1,7 @@
 # serverless-password-manager
 
+#NOT FINISHED!
+
 To install packages/libraries:
 
 global:
