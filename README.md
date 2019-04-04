@@ -14,6 +14,9 @@ backend:
 <ul>
 <li>npm install aws-sdk --save-dev
 <li>npm install uuid --save
+<li>npm i babel-loader@7
+<li>npm i babel-core
+<li>sudo npm install serverless serverless-offline serverless-webpack webpack webpack-node-externals babel-loader @babel/core @babel/preset-env @babel/plugin-proposal-object-rest-spread --save-dev
 </ul>
 
 frontend:
